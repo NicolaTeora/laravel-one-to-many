@@ -16,6 +16,8 @@
                             <th scope="col">Title</th>
                             <th scope="col">description</th>
                             <th scope="col">type</th>
+                            <th scope="col">actions</th>
+
                         </tr>
                     </thead>
                     <tbody>
