@@ -15,4 +15,9 @@ class Project extends Model
         'type',
         'category'
     ];
+
+    public function type()
+    {
+        return $this->belongsTo(Type::class);
+    }
 }
