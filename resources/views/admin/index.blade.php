@@ -16,8 +16,6 @@
                             <th scope="col">Title</th>
                             <th scope="col">description</th>
                             <th scope="col">type</th>
-                            <th scope="col">category</th>
-                            <th scope="col">option</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -26,8 +24,7 @@
                                 <th scope="row">{{ $project->id }}</th>
                                 <td>{{ $project->title }}</td>
                                 <td>{{ $project->description }}</td>
-                                <td>{{ $project->type }}</td>
-                                <td>{{ $project->category }}</td>
+                                <td>{{ $project->type->name }}</td>
 
                                 <td>
                                     <a class="badge text-decoration-none text-bg-primary fs-6"

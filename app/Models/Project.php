@@ -12,8 +12,6 @@ class Project extends Model
     protected $fillable = [
         'title',
         'description',
-        'type',
-        'category'
     ];
 
     public function type()
