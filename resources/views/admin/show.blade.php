@@ -14,15 +14,11 @@
                         <ul>
                             <li>
                                 <strong>Type work:</strong>
-                                {{ $project->type }}
+                                {{ dump($type->name) }}
                             </li>
                             <li>
                                 <strong>Description of the project: </strong>
                                 {{ $project->description }}
-                            </li>
-                            <li>
-                                <strong>Category of Lenguage used: </strong>
-                                {{ $project->category }}
                             </li>
                         </ul>
                     </div>
